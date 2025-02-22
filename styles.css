@@ -1,0 +1,100 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+  @media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+  }
+    .btn-primary {
+      height: 35px !important;
+      padding: 5px 5px;
+    }
+
+    .img1{
+      height: 35px;
+      position: relative;
+      top: 10px;
+
+    }
+
+    .img2 {
+      height: 30px;
+      position: relative;
+      top: 10px;
+      right: 10px;
+    }
+
+    .table-borderless {
+      width: 200px;
+      height: 150px;
+      color: #fff;
+      border-radius: 20px;
+      
+      
+    }
+
+    .main_table {
+      height: 300px;
+      width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      
+      position: relative;
+      left: 600px;
+      bottom: 900px;
+    
+    }
+
+    .table1 {
+      position: relative;
+      bottom: 20px;
+    }
+
+   .table1 {
+    position: relative;
+    top: 20px;
+   }
+
+   .table2 {
+    position: relative;
+    top: 20px;
+   }
+
+   .table3 {
+    position: relative;
+    top: 20px;
+   }
+
+   .table4 {
+    position: relative;
+    top: 20px;
+   }
+
+   .header {
+    text-align: center;
+   }
+
+   .payment-table {
+    width: 900px;
+    height: 600px;
+    position: relative;
+    left: 600px;
+    bottom: 950px;
+   }
+
+   .profile_pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    top: 5px;
+   }
+
+  .offcanvas-header {
+    position: fixed;
+    
+  }
+
+
+

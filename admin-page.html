@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+<body>
+
+  <nav class="navbar navbar-expand-sm ">
+    <div class="container-fluid">
+     <div> <a class="navbar-brand" href="javascript:void(0)">
+        <img src="20200617_142651 (1).jpg" class="profile_pic"> </a>
+    </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <div><li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARdJREFUSEvVle0NwjAMRK+bwCYwCTAJMAlsApvAJsCLclUIDW1aFQn/iUTte/aRj0YzRzOzvroAW0nnDvBK0knSXdIurnnaIdaSEyIHXCQhdHx9JNkBFHEHAuRcE5Bz3mpTAIL7WLCOKzCg32IZcxcxl7WFGMCPt6iCOJ0NETcYy7A1nTSADXD3CAMgHhUbAMs8NVYCClMYYO/dvYEVjNYWTx6aNcDd5sAagKe33Uy1LAFq7Emb+ND7GSC3YuoErV7pqvhvQHroanYRuT7VRYsQ56Cwl8dEeuBCfemyGyPumvQ2+ACM/XPzhtrG8wm48LBpSnydYIpwZ+3QJ7Pr8ssfpUkAioFsooXc/bwBvTF0gl6hUsLsgCeagEQZ9+f34QAAAABJRU5ErkJggg==" class="img2"/>
+            </a>
+          </li>
+        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)"></a>
+            <button class="btn btn-primary" type="button">Add new 
+            </button>
+          </li>
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          
+          <button class="btn btn-primary" type="button">Search  
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <nav class="navbar  border-bottom-0">
+<!-- Navbar toggle button (hamburger icon) -->
+<button class="navbar-toggler d-block d-md-none"
+  type="button" data-bs-toggle="offcanvas"
+  data-bs-target="#sidebar"
+  aria-controls="sidebar">
+<span class="navbar-toggler-icon"></span>
+</button>
+</nav>
+
+<div class="offcanvas offcanvas-header 
+bg-success d-md-block" 
+tabindex="-1" id="sidebar"
+aria-labelledby="sidebarLabel">
+<div class="offcanvas-header">
+<h5 class="offcanvas-title text-light"
+  id="sidebarLabel">BRAND</h5>
+<button type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close">
+</button>
+</div>
+<div class="offcanvas-body">
+<ul class="nav flex-column">
+  <li class="nav-item">
+      <a class="nav-link active text-light"
+      href="#">
+      Dashboard
+      </a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link text-light"
+      href="#">
+      Students
+      </a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link text-light"
+      href="#">
+      Teachers
+      </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light"
+    href="#">
+    Schools
+    </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link text-light"
+  href="#">
+  Income
+  </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link text-light"
+  href="#">
+  Help
+  </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link text-light"
+  href="#">
+  Settings
+  </a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row">
+<nav id="sidebarMenu"
+  class="col-md-3 col-lg-2 d-none 
+          d-md-block bg-light sidebar">
+  <div class="position-sticky 
+              bg-success vh-100">
+      <div class="pt-3">
+          <h6 class="sidebar-heading d-flex 
+                  justify-content-between 
+                  align-items-center px-3 
+                  mt-4 mb-1 text-muted">
+              <span class="text-light">
+                  BRAND
+              </span>
+          </h6>
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                
+                  <a class="nav-link active 
+                          text-light" 
+                  href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIJJREFUSEvtlbENgDAMBC+jsAlswmaMAqOwCTRAAYo4WXIaSOtPPufk5ULyKsnn09xgBvoK1Qp0R83qHgTbS8tOYqv7DaoNvT7P/RfZ3lpd+A0mYKzcfwGGsxYl0PlsbmDRw0Gz6OFHTjew6GECu9Hqwjn4sIHNgdW1H5k2B1qXPvR3ZX0oGaTI0DoAAAAASUVORK5CYII="/>
+                      Dashboard
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light"
+                  href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIBJREFUSEtjZKAxYKSx+QykWJDAwMDQBXVQGQMDwwJiHEeKBa8YGBhEoYa+ZmBgEBtyFtA8iIgJEQw12OLgP1kmITShmDkgFmDzAC5fEUyFBBVAbRu1gGC6GT5BBEsUMB8RTCQEFaClolELcKYm9DAfjQOCGY9oBcQmU6INRFcIABASHhnF0CXJAAAAAElFTkSuQmCC"/>
+                      Students
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light"
+                  href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM1JREFUSEvtldERwjAMQ9VN6CawCUxSmAQ2gU3KJtDHxXdNaJpAUo6P+scfdSRbcdRGC0ezML5+SrCV1Ekil8RN0mnAIXsT9JI2Jcijs4DvQoKHKyiVzcMZg60EdgWrRMlFzpbICg0xd33/hyCpRaQge4LqBDW96C6pDb0IFz1XMLyom05JsnekfMMdXxbsmri6jDUfY3rOrR7WjWzEYQC7BCCA8v8gkANZ3mKOwLoHGIKpMJJoTerxQBJ2HhJxdybdRxN8u6beudQExSRPevIwGaBZaaQAAAAASUVORK5CYII="/>
+                      Teachers
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"
+                href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJFJREFUSEvtldENgCAMRI/NXMXN3MTRNBhpsJb0AkEx0b/Gcs87KgR0fkJnfViArRF60XwFEA0kF2yExf6SwOMADfRq2UbWgSc4fkTe5FIOVgCTUkoRshGl5QuAORb5Hlg/WC1AtFkAG1Hed2gPBdARUh9HNZ2+f4CcoN7EsO+pKWLFrL4boEWsuJa9UKrh3wfstfctGfek13QAAAAASUVORK5CYII="/>
+                Schools   
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"
+                href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO5JREFUSEvFVcERwjAMUzeBSYBJgEmASYBJYBPYBCIuvnN9oU2cBPxpr00kW3KcAZ1j6IwPTfBqTPbB/imBFCCVlMqX3JcC+SvBFHlVBWsABwB8Mi7BvxOAp2oMN8ExgtsmuwPYtCCQzJgxM2fWj/C+ALBUVbgrEDBmS3Ati67KTWAlEpJr8IQyCaGbgFmSZBVloTQSlI3/GFUE1mB20y1+lLPkJhAP9koSkY3y0OiqCr61KUGbSbQLrbk1B01MnpxhpbOo26jIuSrcJueAu0zOBbbrRrKnPDiH00lTPWEH4OjK9ADO7im9FmcB7YI34nBGGSLQz84AAAAASUVORK5CYII="/>
+                Income  
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"
+                href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW1JREFUSEvFlYFNAzEMRd1NYJLCJMAklEmgkwCTAJPQPuQf/eSS9AqqsHTKXc7x9/+2nE1c2DYXjh9rAG4igmeb6+dxfYuIr1x5H9oM4CoinjPoLAaAtxHBurARwC4iHtObg3vLFmAYsd7lKh/OVdYD8OBPR+/FIYsAyL0ls/BvATjwkQGgLX3ZhxGZY2T8YLKw/2r7pS4tAE44v2QAgjmo02+1F3P2r+XoAFClqJVDSkT2ZIUEmNi4JN4Uhb0DKINWR5dMnSJJACWYbBHDAcgeFmiLRDNzzYscKS8yF2AHIFNocqDb04mo4Hy2bFWvIvO5AF7wVh4x/s6Xn9gOoA7y9mxlkozeZe6jRin/1xTZA1TZdYo0LfKocCfqXf2WCqVRnIH38UiCGQPJV9VmNip67ToC8M6qatgbdipUrw17ck2HYw+gnZC6YN6b4UfWGtfDZP7twpEUsNGjK1PjWox+fWWe055D3zWX/p+ADr0WbRlovkuBAAAAAElFTkSuQmCC"/>
+                Help   
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"
+                href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXtJREFUSEu1letRAzEMhDedkEqASgiVAJVAJ4FKgEqAL+PNbGyPIwaiPzfOWdqHdMpGF47NheurCnAj6UEST+JV0lN7LjlWAd4lXXWVALk950AFgMIAEL7/1c5bSR8rkBmA7XhriVhDUIiCRCp6CQBy8jz0YCfpecKo97zvSabcJ0ivwNJhYc9XzQQIQhD4bIOAUnpzsC4BzD6tMDPAsIo7vLei3n9bd1QxA6AorFFBgWxyWnHCtCmBAIECSAw9ePxp4F0r6gnBAhJJgBnBb9jjUU0SkKPOIWZTZJl+5/ORVahKO+nfYO8KwApmALDfB0krOAuANM+9AShkO5BPEVtEn7CtZFFeciIkf9NkiHB/OUWzHUMSjWYAiGx4TtZyTHMFYMV1y6x8aNjGmsDekz70Tc4eJDMz9oeFIveh3yzLVcFlrDB7zvY1x9orxR8lT3IGtZV13Y8kxf60rnvJ2Zt8N9tZQ25FgW3Cc2/Yf//LnKkq/VZVUCo2u/QN4bhvGV+cfPUAAAAASUVORK5CYII="/>
+                Settings   
+                </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+<main class="col-md-9 ms-sm-auto
+          col-lg-10 px-md-4 ">
+  <div class="pt-3">
+      <h2 class="text-primary">
+      
+      </h2>
+      <p class="text-success">
+      
+      </p>
+      <p class="text-success">
+        
+      </p>
+  </div>
+</main>
+</div>
+</div>
+
+
+
+<!-- Bootstrap Bundle with Popper -->
+<script src=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<div class="main_table">
+<div class="table1">
+  <table class="table table-borderless">
+    <h2>2194</h2>
+    <p>
+      Students
+    </p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIBJREFUSEtjZKAxYKSx+QykWJDAwMDQBXVQGQMDwwJiHEeKBa8YGBhEoYa+ZmBgEBtyFtA8iIgJEQw12OLgP1kmITShmDkgFmDzAC5fEUyFBBVAbRu1gGC6GT5BBEsUMB8RTCQEFaClolELcKYm9DAfjQOCGY9oBcQmU6INRFcIABASHhnF0CXJAAAAAElFTkSuQmCC" class="img_students"/>
+    
+  </table>
+</div>
+
+<div class="table2">
+  <table class="table table-borderless">
+    <h2>53</h2>
+    <p>
+      Teachers
+    </p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM1JREFUSEvtldERwjAMQ9VN6CawCUxSmAQ2gU3KJtDHxXdNaJpAUo6P+scfdSRbcdRGC0ezML5+SrCV1Ekil8RN0mnAIXsT9JI2Jcijs4DvQoKHKyiVzcMZg60EdgWrRMlFzpbICg0xd33/hyCpRaQge4LqBDW96C6pDb0IFz1XMLyom05JsnekfMMdXxbsmri6jDUfY3rOrR7WjWzEYQC7BCCA8v8gkANZ3mKOwLoHGIKpMJJoTerxQBJ2HhJxdybdRxN8u6beudQExSRPevIwGaBZaaQAAAAASUVORK5CYII=" class="img_teachers"/>
+  </table>
+</div>
+
+<div class="table3">
+  <table class="table table-borderless">
+    <h2>5</h2>
+    <p>
+      Schools
+    </p> 
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJFJREFUSEvtldENgCAMRI/NXMXN3MTRNBhpsJb0AkEx0b/Gcs87KgR0fkJnfViArRF60XwFEA0kF2yExf6SwOMADfRq2UbWgSc4fkTe5FIOVgCTUkoRshGl5QuAORb5Hlg/WC1AtFkAG1Hed2gPBdARUh9HNZ2+f4CcoN7EsO+pKWLFrL4boEWsuJa9UKrh3wfstfctGfek13QAAAAASUVORK5CYII=" class="img_schools"/>
+  </table>
+</div>
+
+<div class="table4">
+  <table class="table table-borderless">
+    <h2>350000</h2>
+    <p>
+      Income
+    </p> 
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO5JREFUSEvFVcERwjAMUzeBSYBJgEmASYBJYBPYBCIuvnN9oU2cBPxpr00kW3KcAZ1j6IwPTfBqTPbB/imBFCCVlMqX3JcC+SvBFHlVBWsABwB8Mi7BvxOAp2oMN8ExgtsmuwPYtCCQzJgxM2fWj/C+ALBUVbgrEDBmS3Ati67KTWAlEpJr8IQyCaGbgFmSZBVloTQSlI3/GFUE1mB20y1+lLPkJhAP9koSkY3y0OiqCr61KUGbSbQLrbk1B01MnpxhpbOo26jIuSrcJueAu0zOBbbrRrKnPDiH00lTPWEH4OjK9ADO7im9FmcB7YI34nBGGSLQz84AAAAASUVORK5CYII=" class="img_income"/>
+  </table>
+</div>
+</div>
+ 
+  <div class="payment-table">
+    <table class="table">
+      <div><thead>
+        <tr>
+          <th scope="col" class="header">RECENT PAYMENTS </th>
+          
+          
+        </tr>
+      </thead>
+    </div>
+      
+      <tbody class="table-group-divider">
+        <th scope="col">Name</th>
+      <th scope="col">School</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Option</th>
+        <tr>
+          <th scope="row">James Brown</th>
+          <td>Otto High</td>
+          <td>1000</td>
+          <td><button class="btn btn-primary" type="button">View All 
+          </button></td>
+        </tr>
+        <tr>
+          <th scope="row">Lena Peters</th>
+          <td>Peeks High</td>
+          <td>3000</td>
+          <td><button class="btn btn-primary" type="button">View All 
+          </button></td>
+        </tr>
+        <tr>
+          <tr>
+            <th scope="row">Devin Marcus</th>
+            <td>Mesa High</td>
+            <td>1000</td>
+            <td><button class="btn btn-primary" type="button">View All 
+            </button></td>
+          </tr>
+          <tr>
+            <th scope="row">Mercy Jones</th>
+            <td>Morris High</td>
+            <td>2000</td>
+            <td><button class="btn btn-primary" type="button">View All 
+            </button></td>
+          </tr>
+          <tr>
+            <th scope="row">Nisa Benson</th>
+            <td>Jacob Elementary</td>
+            <td>4000</td>
+            <td><button class="btn btn-primary" type="button">View All 
+            </button></td>
+          </tr>
+          <th scope="row">Shanica Cyril</th>
+          <td>Mo Elementary</td>
+          <td>1150</td>
+          <td><button class="btn btn-primary" type="button">View All 
+          </button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
+  
+  
+     
+</body>
+</html>
